@@ -1,0 +1,52 @@
+# -*- mode: gitignore; -*-
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Node dependencies
+node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# Production
+build
+
+# Misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Yarn Modern (2.x)
+**/.yarn/*
+!**/.yarn/releases
+!**/.yarn/plugins
+!**/.yarn/sdks
+!**/.yarn/versions
+.pnp.*
+
+# Emacs stuff
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+.dir-locals.el
+*_flymake.*
+flycheck_*.el
+/server/
+.projectile
+/elpa/
+/network-security.data
+/eshell/history
+/eshell/lastdir
