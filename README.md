@@ -58,6 +58,15 @@ The course plan is as follows:
    4. Create rating component in components/Rating.js
    5. Use rating component
 
+8. Build product screen
+    1. Install react-router-dom
+    2. Use BrowserRouter and Route for the Home screen
+    3. Create HomeScreen.js
+    4. Add product list code there
+    5. Create ProductScreen.js for individual product info
+    6. Add new route from product details to App.js
+    7. Create 3 columns for product image, product info and action
+
 
 ## Front End React App
 
