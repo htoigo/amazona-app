@@ -51,6 +51,13 @@ The course plan is as follows:
    5. Connect local repo to github repo
    6. Push changes to github
 
+7. Create Rating and Product Component
+   1. Create Product component in components/Product.js
+   2. Create div.rating
+   3. Style div.rating, span and last span
+   4. Create rating component in components/Rating.js
+   5. Use rating component
+
 
 ## Front End React App
 
