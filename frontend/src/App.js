@@ -9,6 +9,7 @@ function App() {
       <div className="grid-container">
         <header className="row">
           <div>
+            <a className="brand" href="/"> ☰ </a>     {/* &#x2630; */}
             <a className="brand" href="/">amazona</a>
           </div>
           <div>
@@ -22,7 +23,7 @@ function App() {
           <Route path="/product/:id" component={ProductScreen} />
         </main>
 
-        <footer className="row center"> All rights reserved. </footer>
+        <footer className="row center"> © 2020 All rights reserved. </footer>
       </div>
     </BrowserRouter>
   );

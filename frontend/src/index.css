@@ -106,13 +106,18 @@ button.block {
 
 header a {
   color: #ffffff;
-  padding: 1rem;
+  padding: 0.35rem;
+  margin: 0.35rem;
 }
 
 a.brand {
   color: #ffffff;
   font-size: 3rem;
   font-weight: bold;
+}
+
+a.brand:hover {
+  color: #ff8000;
 }
 
 .row {
