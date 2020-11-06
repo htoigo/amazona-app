@@ -84,6 +84,20 @@ The course plan is as follows:
         Node server after editing source files.
     13. Define 'start' script to run nodemon --watch ... --exec node .../server.js
 
+10. Modify frontend react app to load products from the backend
+    1. Set up proxy to the backend.
+    2. Install axios library.
+    3. Edit HomeScreen.js
+    4. Use react hooks to set up some state: products variable.
+    5. Define useEffect hook: runs when components did mount, after rendering.
+    6. Define async fetchData function and then call it.
+    7. Get data from /api/products.
+    8. Show products in the list.
+    9. Create the loading & error state hook variables.
+    10. Create the Loading component.
+    11. Create the Message Box component.
+    12. Use these components in the HomeScreen.
+
 
 ## Front End React App
 
