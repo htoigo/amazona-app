@@ -1,0 +1,27 @@
+{
+  "name": "amazona",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "An ECommerce website similar to Amazon, built on the MERN stack.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch backend --exec node backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/htoigo/amazona-app.git"
+  },
+  "author": "Harry H. Toigo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/htoigo/amazona-app/issues"
+  },
+  "homepage": "https://github.com/htoigo/amazona-app#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}

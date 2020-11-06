@@ -67,6 +67,23 @@ The course plan is as follows:
     6. Add new route from product details to App.js
     7. Create 3 columns for product image, product info and action
 
+9. Create Node.JS server with Express framework for backend
+    1. Run npm init in the root folder
+    2. Update package.json to set type: module
+    3. Add .js to imports for Node server (i.e., import ./data.js)
+    4. Install express with npm
+    5. Create server.js
+    6. Require express
+    7. Create stub route for / which returns backend is ready
+    8. Move products file data.js from frontend to backend
+    9. Create stub route for /api/products
+    10. Return products
+    11. Run npm start
+    12. Install nodemon with npm as a devDependency (--save-dev) for hot
+        reloading of code. This way we don't have to stop and start our
+        Node server after editing source files.
+    13. Define 'start' script to run nodemon --watch ... --exec node .../server.js
+
 
 ## Front End React App
 
