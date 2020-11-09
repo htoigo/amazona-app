@@ -98,6 +98,16 @@ The course plan is as follows:
     11. Create the Message Box component.
     12. Use these components in the HomeScreen.
 
+11. Install ESLint for code linting
+    1. Install eslint extension for your code editor.
+    2. Install eslint as a devDependency for the root project. This package is
+       already installed in the frontend folder. I guess we install it again for
+       the root project so it is available to the entire package or the backend
+       code.
+    3. Run ./node_modules/.bin/eslint --init
+    4. Create frontend/.env
+    5. Add SKIP_PREFLIGHT_CHECK=true to the .env file.
+
 
 ## Front End React App
 
