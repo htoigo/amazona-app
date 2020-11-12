@@ -120,6 +120,12 @@ The course plan is as follows:
     9. useEffect(() => dispatch({type: LOAD_PRODUCTS, payload: data}))
     10. Add store to index.js.
 
+13. Add Redux to product details screen
+    1. Create product details constants, actions & reducers.
+    2. Add product details reducer to store.js.
+    3. Use action in ProductScreen.js.
+    4. Add /api/product/:id to backen api.
+
 
 ## Front End React App
 
