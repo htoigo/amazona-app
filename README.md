@@ -108,6 +108,18 @@ The course plan is as follows:
     4. Create frontend/.env
     5. Add SKIP_PREFLIGHT_CHECK=true to the .env file.
 
+12. Add Redux to the Home Screen
+    1. Use npm to install redux & react-redux
+    2. Create store.js
+    3. initState = { products: [] }
+    4. reducer = (state, action) => switch LOAD_PRODUCTS: {products: action.payload}
+    5. export default createStore(reducer, initState)
+    6. Edit HomeScreen.js
+    7. shopName = useSelector(state => state.products)
+    8. const dispatch = useDispatch()
+    9. useEffect(() => dispatch({type: LOAD_PRODUCTS, payload: data}))
+    10. Add store to index.js.
+
 
 ## Front End React App
 
