@@ -77,7 +77,7 @@ li {
   margin-top: 1rem;
 }
 
-button {
+input, select, textarea, button {
   padding: 1rem;
   border-radius: 0.5rem;
   border: 0.1rem solid #a4a4a4;
@@ -85,11 +85,14 @@ button {
   font-family: Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+button {
   background-color: #f8f8f8;
   cursor: pointer;
 }
 
-button:hover {
+input:hover, select:hover, textarea:hover, button:hover {
   border: 0.1rem solid #404040;
 }
 

@@ -126,6 +126,10 @@ The course plan is as follows:
     3. Use action in ProductScreen.js.
     4. Add /api/product/:id to backen api.
 
+14. Handle Add to Cart button
+    1. Handle Add to Cart in ProductScreen.js.
+    2. Create CartScreen.js.
+
 
 ## Front End React App
 
