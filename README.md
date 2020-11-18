@@ -136,6 +136,13 @@ The course plan is as follows:
     3. Use our new action in the CartScreen.js.
     4. Add badge to the shopping cart indicating number items in cart.
 
+16. Build Shopping Cart screen
+    1. In CartScreen.js, create 2 columns: cart items and cart action.
+    2. Modify the display if the cart is empty.
+    3. Flesh out cart items: show item image, name, quantity and price.
+    4. Implement the Proceed to Checkout button.
+    5. Implement the Remove from Cart action.
+
 
 ## Front End React App
 
