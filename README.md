@@ -130,6 +130,12 @@ The course plan is as follows:
     1. Handle Add to Cart in ProductScreen.js.
     2. Create CartScreen.js.
 
+15. Implement Add to Cart Action
+    1. Create constants for AddToCart.
+    2. Create action and reducer for AddToCart.
+    3. Use our new action in the CartScreen.js.
+    4. Add badge to the shopping cart indicating number items in cart.
+
 
 ## Front End React App
 
