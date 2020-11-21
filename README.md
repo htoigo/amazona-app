@@ -141,7 +141,12 @@ The course plan is as follows:
     2. Modify the display if the cart is empty.
     3. Flesh out cart items: show item image, name, quantity and price.
     4. Implement the Proceed to Checkout button.
-    5. Implement the Remove from Cart action.
+    5. Write a stub function handler for the Remove from Cart action.
+
+17. Implement the Remove from Cart action
+    1. Create constants for the removeFromCart action.
+    2. Create an action and reducer for removing an item from the cart.
+    3. Use the remove from cart action in the CartScreen.
 
 
 ## Front End React App
