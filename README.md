@@ -148,6 +148,16 @@ The course plan is as follows:
     2. Create an action and reducer for removing an item from the cart.
     3. Use the remove from cart action in the CartScreen.
 
+18. Connect to MongoDB and Create Sample Users
+    1. Install mongoose with npm.
+    2. Create models directory in the backend and userModel.js file.
+    3. Create user schema and user model.
+    4. Create routers directory in backend.
+    5. Create userRouter for user-related routes on the backend.
+    6. Install MongoDb.
+    7. Set up the connection to MongoDB.
+    8. Seed sample data.
+
 
 ## Front End React App
 
