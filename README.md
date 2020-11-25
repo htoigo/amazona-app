@@ -158,6 +158,12 @@ The course plan is as follows:
     7. Set up the connection to MongoDB.
     8. Seed sample data.
 
+19. Create Sample Products in MongoDB
+    1. Create backend/models/productModel.js file.
+    2. Create product Schema and product model.
+    3. Create productRouter.js.
+    4. Seed sample products data.
+
 
 ## Front End React App
 
