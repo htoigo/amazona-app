@@ -164,6 +164,15 @@ The course plan is as follows:
     3. Create productRouter.js.
     4. Seed sample products data.
 
+20. Create Sign-in Backend
+    1. Create handler for backend route /api/users/signin.
+    2. Write code to validate user-entered email and password.
+    3. If the user aufthenticates, generate and send them a token.
+        a. Install jsonwebtoken package with npm.
+        b. Install dotenv package with npm.
+        c. Send to client the token and user info.
+    4. Test the /api/users/signin route (API) using Postman.
+
 
 ## Front End React App
 
