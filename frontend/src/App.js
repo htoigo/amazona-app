@@ -4,6 +4,7 @@ import { useSelector } from 'react-redux';
 import HomeScreen from './screens/HomeScreen';
 import ProductScreen from './screens/ProductScreen';
 import CartScreen from './screens/CartScreen';
+import SigninScreen from './screens/SigninScreen';
 
 function App() {
   const cart = useSelector(state => state.cart);
@@ -29,9 +30,10 @@ function App() {
         </header>
 
         <main>
-          <Route path="/" component={HomeScreen} exact />
           <Route path="/product/:id" component={ProductScreen} />
           <Route path="/cart/:id?" component={CartScreen} />
+          <Route path="/signin" component={SigninScreen} />
+          <Route path="/" component={HomeScreen} exact />
         </main>
 
         <footer className="row center"> © 2020 All rights reserved. </footer>

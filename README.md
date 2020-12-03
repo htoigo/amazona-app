@@ -173,6 +173,12 @@ The course plan is as follows:
         c. Send to client the token and user info.
     4. Test the /api/users/signin route (API) using Postman.
 
+21. Design Sign-In Screen
+    1. Create the SigninScreen.js file for the sign-in screen.
+    2. Render the email and password fields.
+    3. Create sign-in related constants, action and reducer.
+    4. Update the page header based on user login status.
+
 
 ## Front End React App
 
